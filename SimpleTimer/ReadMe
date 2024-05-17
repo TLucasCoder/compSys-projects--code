@@ -1,0 +1,10 @@
+This challenge is a simple Timer made on maker pico.
+
+The two buttons, with GPIO Pin 20 as the reduce button, and GPIO Pin 21 as the increase button, are used to control the time of the 
+timer. The time set is indicated by the number of illuminated LED light from PIN 1 to PIN 15, each represents 1 second by default.
+
+After using the two buttons to adjust the desire time length for the timer, we can then use the further right button using GPIO Pin 22, 
+to start the timer. The LED lights will gaudrally switched off when the time passes. When it reaches zero, the buzzer will be triggered and 
+the LED lights will Fade in and out, signifying the end of count down. 
+
+To reset the timer, simply press the RUN button to reset it.

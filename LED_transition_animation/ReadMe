@@ -1,0 +1,9 @@
+In this project we have created 3 different types of LED animation modes, which can be accessed by pressing the buttons on the maker pi pico board to activate the modes.
+
+The first button is the one lighting up all the LEDs one by one from Pin 0 to the end, then switching off them one by one again from pin 0 to the end.
+
+The second button is the one showing transition of LEDs lighting up alternatively.
+
+The third one is the one the transition showing the illuiminated light traversing from the end to Pin 0, then stacking up until all the LEDs are lit.
+
+Pressing the button during the transition will cause it instant stop and switch to the other one corresponds to the button clicked.

@@ -1,0 +1,11 @@
+This Challenge uses the buzzer to play a sequence of notes as a song. 
+
+For the nodes, we have specified different tunes corresponds to different refreqencies for the buzzer to play the correct note.
+In the array of notes, we've use a pattern of [note, speed, note, speed ...] where the speed specifies how long will the note be played, as a divisor to divide a whole note. 
+    For example, for speed = 4, the duration will be 1/4 times of the whole note, which have been default as 2 seconds
+
+The button on the maker pico can also be used to control what song it is going to play, controlling up to 3 songs by GPIO pin 20,21, and 22.
+
+Way to run the file: preferably use Thonny to run it on pi pico, just click the run button while having the pico plugged in.
+The firmware of micropython have to be installed into the pico before using it.
+version used: pimoroni-picow-v1.21.0-micropython.uf2
